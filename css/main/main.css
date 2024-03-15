@@ -1,0 +1,78 @@
+.description {
+    margin: 2rem;
+    width: 100%;
+}
+
+.description__title {
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2rem;
+    border: 2px black solid;
+    border-left: none;
+    border-right: none;
+}
+
+.description__text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    background-color: rgba(187, 187, 187, 0.5);
+    padding: 2rem;
+}
+
+.slider {
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
+}
+
+.slider__title {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.slider__foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.foto {
+    text-align: center;
+}
+
+.actress {
+    width: 250px;
+}
+
+.foto p {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btn {
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: white;
+    background-color: #FFA31A;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.video {
+
+}

@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header__logo img{
+    width: 100px;
+    margin: auto 0;
+}
+
+.header__nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: auto;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: 0;
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+.header__form {
+    margin: auto 0;
+    color: white;
+}

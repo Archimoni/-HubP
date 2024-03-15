@@ -1,0 +1,59 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 1rem;
+    padding: 1rem;
+}
+
+.footer {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer__logo {
+    
+}
+
+.footer__list {
+
+}
+
+ul {
+    list-style: none;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+li a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.footer__nav {
+
+}
+
+.footer__author {
+    width: 100%;
+    color: white;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    justify-content: end;
+    display: flex;
+    
+}
