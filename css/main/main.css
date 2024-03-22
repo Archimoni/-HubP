@@ -37,9 +37,10 @@
 }
 
 .slider__foto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
     margin-bottom: 2rem;
 }
 
@@ -57,19 +58,22 @@
     opacity: 0.5;
 }
 
-.video {
-
+.video__sec {
+    width: 100%;
+    margin: 2rem;
+    text-align: center;
 }
 
 .foto__card {
     position: relative;
-    width: 50%;
+    /* width: 50%; */
   }
 
 .actress {
     display: block;
     width: 100%;
-    height: auto;
+    height: 350px;
+    object-fit: cover;
   }
   
   .foto__text {
@@ -82,11 +86,12 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: #FFA31A;
   }
   
   .foto__card:hover .foto__text {
     opacity: 1;
+
   }
   
   .foto__text p {
@@ -99,7 +104,11 @@
     text-align: center;
     text-align: center;
     margin: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+  }
+
+  main {
+    margin-bottom: 3rem;
   }

@@ -57,3 +57,64 @@ li a:hover {
     display: flex;
     
 }
+
+.footer__form {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form__title {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 0.5rem;
+    /* width: 250px; */
+    width: 100%;
+    font-size: 16px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid gold;
+}
+
+select {
+    margin: 0.5rem;
+    width: 100%;
+    font-size: 16px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid gold;
+}
+
+.form__btn {
+    font: bold 16px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: white;
+    background-color: #FFA31A;
+    padding: 12px;
+    margin: 0 auto;
+    border: none;
+    margin: 0.5rem;
+}
+
+.form__btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+

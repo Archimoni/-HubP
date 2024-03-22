@@ -16,23 +16,32 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <section class="header">
-          <div class="header__logo">
-            <a href="../html/main_page.html">
-              <img src="../assets/logo/logo.svg" alt="logo" />
-            </a>
-          </div>
-          <div class="header__nav">
-            <a href="../html/main_page.html" class="nav__link"> Главная </a>
-            <a href="../html/table_page.html" class="nav__link"> Актрисы </a>
-            <a href="../html/video_page.html" class="nav__link">
-              Видео
-            </a>
-          </div>
-          <div class="header__form">форма</div>
-        </section>
-      </div>
+        <div class="container">
+            <section class="header">
+                <div class="header__logo">
+                    <a href="../html/main_page.html">
+                        <img src="../assets/logo/logo.svg" alt="logo">
+                    </a>
+                    
+               </div>
+               <div class="header__nav">
+                    <a href="../html/main_page.html" class="nav__link">
+                        Главная
+                    </a>
+                    <a href="../html/table_page.html" class="nav__link">
+                        Актрисы
+                    </a>
+                    <a href="../html/video_page.html" class="nav__link">
+                        Видео
+                    </a>
+                    <a href="#form" class="nav__link">
+                        Оставьте отзыв
+                   </a>
+               </div>
+               
+            </section>
+            
+        </div>
     </header>
 
     <main class="main">
@@ -235,47 +244,85 @@
     </main>
 
     <footer>
-      <div class="container">
-        <div class="footer">
-          <div class="footer__logo">
-            <a href="../html/main_page.html">
-              <img src="../assets/logo/logo.svg" alt="лого" width="120px" />
-            </a>
-          </div>
-          <div class="footer__list">
-            <ul class="list">
-              <li>
-                <a href=""> Описание </a>
-              </li>
-              <li>
-                <a href=""> Топ 3 актрисы </a>
-              </li>
-              <li>
-                <a href=""> видео </a>
-              </li>
-              <li>
-                <a href=""> аудио </a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer__nav">
-            <ul class="list">
-              <li>
-                <a href="../html/main_page.html"> Главная </a>
-              </li>
-              <li>
-                <a href="../html/table_page.html"> Актрисы </a>
-              </li>
-              <li>
-                <a href="../html/video_page.html"> Видео </a>
-              </li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__logo">
+                    <a href="../html/main_page.html">
+                        <img src="../assets/logo/logo.svg" alt="лого" width="120px">
+                    </a>
+                </div>
+                <div class="footer__list">
+                    <ul class="list">
+                        <li>
+                            <a href="#description">
+                                Приветствие
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#description">
+                                Описание
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#slider">
+                                Топ 3 актрисы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#video">
+                                видео
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    <ul class="list">
+                        <li>
+                            <a href="../html/main_page.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../html/table_page.html">
+                                Актрисы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../html/video_page.html">
+                                Видео
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__form" id="form">
+                    <form action="">
+                        <p class="form__title">
+                            Оцените наш сайт
+                        </p>
+                        <input type="text" class="name" placeholder="Имя">
+                        <input type="email" class="email" placeholder="Email">
+                        <select name="" id="" class="select">
+                            <option value="none">Оцените сайт</option>
+                            <option value="very best">Лучший сайт</option>
+                            <option value="best">Отлично</option>
+                            <option value="good">Хорошо</option>
+                            <option value="nice">Неплохо</option>
+                            <option value="bad">Плохо</option>
+                            <option value="terribly">Ужасно</option>
+                        </select>
+                        <button class="form__btn">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
         </div>
-      </div>
-      <div class="footer__author">
-        <p>Автор проекта: Archimoni</p>
-      </div>
+        <div class="footer__author">
+           <p>
+            Автор проекта: Archimoni
+           </p> 
+        </div>
     </footer>
   </body>
 </html>
