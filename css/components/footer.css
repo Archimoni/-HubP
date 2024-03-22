@@ -5,19 +5,11 @@ footer {
 }
 
 .footer {
+    padding-top: 2rem;
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-}
-
-.footer__logo {
-    
-}
-
-.footer__list {
-
 }
 
 ul {
@@ -40,9 +32,6 @@ li a:hover {
     text-decoration: underline;
 }
 
-.footer__nav {
-
-}
 
 .footer__author {
     width: 100%;
@@ -85,7 +74,6 @@ form {
 
 input {
     margin: 0.5rem;
-    /* width: 250px; */
     width: 100%;
     font-size: 16px;
     padding: 0.5rem;

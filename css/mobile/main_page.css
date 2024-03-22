@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px) {
+    .description {
+        margin: 1rem;
+        /* width: 90%; */
+    }
+
+    .container {
+        text-align: center;
+    }
+
+
+    .slider {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .slider__foto {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        gap: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .actress {
+        display: block;
+        width: 100%;
+        height: 90%;
+        object-fit: contain;
+      }
+
+      .video__sec {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    
+}

@@ -4,3 +4,7 @@
 @import "./main/main.css";
 @import "./actresses/table.css";
 @import './video_page/video_page.css';
+@import './mobile/components.css';
+@import './mobile/main_page.css';
+@import './mobile/table_page.css';
+@import './mobile/video_page.css';
