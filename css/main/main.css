@@ -43,22 +43,6 @@
     margin-bottom: 2rem;
 }
 
-.foto {
-    text-align: center;
-}
-
-.actress {
-    width: 250px;
-}
-
-.foto p {
-    text-align: center;
-    margin: 1rem;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-}
-
 .btn {
     font: bold 16px Arial;
     text-decoration: none;
@@ -76,3 +60,46 @@
 .video {
 
 }
+
+.foto__card {
+    position: relative;
+    width: 50%;
+  }
+
+.actress {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .foto__text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .foto__card:hover .foto__text {
+    opacity: 1;
+  }
+  
+  .foto__text p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+  }
